@@ -192,28 +192,26 @@ export default {
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Jonathan Guerrero Astaiza',
-        cargo: 'Experto temático',
-        centro: 'Centro de teleinformática y producción industrial',
-        regional: 'Regional Cauca',
-      },
-      {
-        nombre: 'Paula Andrea Taborda Ortiz',
-        cargo: 'Diseñadora instruccional',
-        centro: ' Centro de diseño y metrología.',
-        regional: 'Regional distrito capital',
-      },
-      {
-        nombre: 'Vilma Lucía Perilla Méndez',
-        cargo: 'Revisora metodológica y pedagógica ',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional distrito capital',
-      },
-      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jonathan Guerrero Astaiza',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial Regional Cauca',
+      },
+      {
+        nombre: 'Paula Andrea Taborda Ortiz',
+        cargo: 'Diseñadora instruccional',
+        centro: ' Centro de diseño y metrología  Regional distrito capital',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla Méndez',
+        cargo: 'Revisora metodológica y pedagógica ',
+        centro: 'Centro de Gestión Industrial Regional distrito capital',
       },
     ],
     desarrolloProducto: [
@@ -247,7 +245,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

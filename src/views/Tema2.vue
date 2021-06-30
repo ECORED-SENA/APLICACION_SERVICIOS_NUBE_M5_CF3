@@ -8,16 +8,16 @@
         span 2
       h1 Requerimientos no funcionales
     .row.justify-content-between
-      .col-lg-6
+      .col-lg-6.col-md-12
         p Estos no están relacionados de forma directa a funciones específicas del sistema, por esta razón algunos equipos de trabajo no le dedican el tiempo necesario para su definición. Sin embargo, son los requerimientos no funcionales los que se asocian a propiedades clave que determinan en buena parte la calidad de los productos y servicios desarrollados, 
           b como por ejemplo: la fiabilidad, los tiempos de respuesta a operaciones, la capacidad de almacenamiento, entre otras.
           br
           br
           |Los requerimientos no funcionales deben surgir de las necesidades del usuario y el problema particular que se intenta resolver, e involucran temas presupuestales, políticas de la organización, posible interoperabilidad con otros sistemas de software o hardware, además diferentes tipos de políticas como: la privacidad, la seguridad, políticas ambientales, de manejo de datos, entre otras; por lo anterior algunas veces resolver este tipo de requerimientos puede ser más crítico que los mismos requerimientos funcionales (Sommerville, 2011).
-      .col-lg-5
+      .col-lg-5.col-md-12
         figure.mb-5
           img(src='@/assets/curso/img2.svg', alt='Texto que describa la imagen')
-    p.mb-5 En la figura se presentan los diferentes tipos de requerimientos funcionales según (Sommerville, 2011)
+    p.mb-5 En la siguiente figura se presentan los diferentes tipos de requerimientos funcionales según (Sommerville, 2011)
     .titulo-sexto.color-acento-contenido
       h5 Clasificación de requerimientos no funcionales
     .row.justify-content-center
@@ -43,8 +43,10 @@
     .row.justify-content-center
       .col-lg-8
         .cajon.color-primario.cyan-claro.p-4.mb-4
-          p Los requerimientos de producto incluyen los requerimientos de eficiencia, de usabilidad, de fiabilidad y de portabilidad. Un ejemplo de un requerimiento no funcional de producto podría ser que el producto sea desarrollado en HTML5 sin el applet de java ni ajax, esto con el ánimo de garantizar que sea compatible con la mayoría de los navegadores en el mercado actual.
-    p.mb-5 Existen dos corrientes para la documentación de requerimientos, independientemente de la corriente se recomienda utilizar la estructura de la Tabla 1 para la documentación de requerimientos no funcionales. Sin embargo, se puede realizar los ajustes y modificaciones que considere enriquecen el proceso.
+          p Se recomienda especificar los requerimientos no funcionales de forma cuantitativa o al menos que exista la definición de algunos criterios de aceptación que facilite la verificación de su cumplimiento. Normalmente los requerimientos no funcionales se especifican en el mismo documento de requerimientos, pero en una sección diferente a los requerimientos funcionales.
+    p.mb-5 Existen dos corrientes para la documentación de requerimientos, independientemente de la corriente se recomienda utilizar la estructura de la siguiente tabla para la documentación de requerimientos no funcionales. Sin embargo, se pueden realizar los ajustes y modificaciones que considere enriquecen el proceso.
+    .titulo-sexto.color-acento-contenido
+      h5 Propuesta para especificación de requisitos no funcionales.
     .tabla-a.color-acento-botones.mb-5.text-center
       table
         caption Fuente: SENA, 2021

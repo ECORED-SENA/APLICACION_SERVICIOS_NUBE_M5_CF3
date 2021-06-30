@@ -11,7 +11,7 @@
     p.mb-5 En el desarrollo de aplicaciones, es necesario tener claridad sobre la pertinencia de cada herramienta de desarrollo según el proyecto, ya que el uso o no de una herramienta tiene costos asociados que pueden impactar el alcance y recursos del proyecto. Por ello, es importante analizar los diferentes tipos de licencias pagadas y libres a nivel de sistemas operativos, lo mismo aplica con herramientas usadas para el desarrollo de un producto como IDE, sistemas gestores de bases de datos, herramientas para la ejecución de pruebas, entre otros. Por lo anterior es importante hacer un balance y un análisis serio sobre las mejores opciones de acuerdo con las necesidades de los clientes y teniendo en cuenta los requisitos no funcionales definidos.
       br
       br
-      |Por esta razón es importante elegir las herramientas que harán parte de la arquitectura tecnológica definida para el desarrollo y posterior despliegue e implementación de la solución tecnológica construida de acuerdo con el tipo de proyecto y tipo de cliente para el cual se pretende desarrollar el proyecto.
+      |Por esta razón es importante elegir las herramientas que harán parte de la arquitectura tecnológica definida para el desarrollo y posterior despliegue e implementación de la solución tecnológica,  construida de acuerdo con el tipo de proyecto y tipo de cliente para el cual se pretende desarrollar el proyecto.
     #t_3_1.titulo-segundo
       h2 3.1 Componentes de una arquitectura de software
     p.mb-5 Toda arquitectura definida en el proceso de construcción de un software debe incluir una serie de elementos o componentes que en su conjunto definen la estructura o línea de trabajo entre todos los miembros del equipo de desarrollo, a continuación, se definirá de manera general los componentes que deben de seleccionarse o definirse para el inicio de un proyecto, la definición de los componentes dependerá del tipo de proyecto que se desea construir, por ejemplo no es lo mismo desarrollar una aplicación web que una aplicación móvil. Para realizar lo anterior, se debe tener en cuenta: 
@@ -220,7 +220,7 @@
         figure
           img(src='@/assets/curso/img18.jpg', alt='Texto que describa la imagen')
     h3 Máquinas virtuales
-    p.mb-5 Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión (Alarcón, 2018), de igual manera debe existir un componente de infraestructura de tipo hardware que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o si se trata del despliegue y puesta en producción final de la aplicación puede referirse a un proveedor que suministra el hardware necesario que soportará la máquina virtual como Azure, Google Cloud, AWS, Digital Ocean entre otras.
+    p.mb-5 Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión (Alarcón, 2018), de igual manera debe existir un componente de infraestructura de tipo hardware que soporte todo lo anterior,  que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o si se trata del despliegue y puesta en producción final de la aplicación, puede referirse a un proveedor que suministra el hardware necesario que soportará la máquina virtual como Azure, Google Cloud, AWS, Digital Ocean, entre otras.
     .titulo-sexto.color-acento-contenido
       h5 Funcionamiento de una máquina virtual
     .row.justify-content-center.mb-5 
@@ -232,7 +232,7 @@
     p.mb-5 Los contenedores por su parte a diferencia de las máquinas virtuales no requieren tener un sistema operativo completo aislado, lo que hacen es aislar las aplicaciones compartiendo los recursos del sistema operativo sobre el cual se ejecutan.
       br
       br
-      |La contenerización de aplicaciones lo que hace es compartir todos esos recursos del equipo anfitrión entre todas las aplicaciones que se generen a través de contenedores, es decir que ya no se requiere disponer de una capacidad determinada de recursos como memoria RAM, procesador, almacenamiento y networking como se hace en las máquinas virtuales lo que permite optimizar el recurso.
+      |La contenerización de aplicaciones lo que hace es compartir todos esos recursos del equipo anfitrión entre todas las aplicaciones que se generen a través de contenedores, es decir, que ya no se requiere disponer de una capacidad determinada de recursos como memoria RAM, procesador, almacenamiento y networking como se hace en las máquinas virtuales lo que permite optimizar el recurso.
     .titulo-sexto.color-acento-contenido
       h5 Funcionamiento contenedores Docker
     .row.justify-content-center.mb-5 

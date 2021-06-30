@@ -13,7 +13,7 @@
       .titulo-principal__numero
         span 1
       h1 Generalidades sobre requerimientos
-    p.mb-5 El proceso de levantamiento de requerimientos es fundamental al momento de iniciar un proyecto de desarrollo de software, este permite identificar las características o funcionalidades que debe tener el software a construir o en algunos casos, también permite definir cuáles y de qué tipo de restricciones deben ser cubiertas por el equipo de desarrollo para que el producto sea recibido de manera satisfactoria por el cliente.
+    p.mb-5 El proceso de levantamiento de requerimientos es fundamental al momento de iniciar un proyecto de desarrollo de software, este permite identificar las características o funcionalidades que debe tener el software a construir o en algunos casos, también permite definir cuáles y qué tipo de restricciones deben ser cubiertas por el equipo de desarrollo para que el producto sea recibido de manera satisfactoria por el cliente.
       br
       br
       |Este proceso se hace a fin de que el equipo de trabajo pueda entender qué tipo de funcionalidades, complejidad, tiempos, herramientas y tecnologías podrían ser empleadas durante el proceso de construcción y posterior implementación de la solución, este es un proceso bastante crítico ya que si no se hace de manera correcta y exhaustiva el desarrollo del proyecto puede no ser exitoso.
