@@ -216,7 +216,7 @@
           br
           br
           |Si bien la plataforma tecnológica exige la selección de varios componentes como sistema operativo, servidor web, gestor de base de datos y lenguaje de programación, en la actualidad se debe tener claro qué tipo de despliegue se requiere para la construcción local del producto en las máquinas de los equipos de desarrollo y para el despliegue en producción (generalmente debe ser el mismo).  Lo anterior puede sugerir la necesidad de máquinas virtuales o contenedores para lo cual se dará una definición que permita diferenciar un concepto de otro.
-      .col-lg-6 
+      .col-lg-5 
         figure
           img(src='@/assets/curso/img18.jpg', alt='Texto que describa la imagen')
     h3 Máquinas virtuales

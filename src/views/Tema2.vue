@@ -44,12 +44,12 @@
       .col-lg-8
         .cajon.color-primario.cyan-claro.p-4.mb-4
           p Se recomienda especificar los requerimientos no funcionales de forma cuantitativa o al menos que exista la definición de algunos criterios de aceptación que facilite la verificación de su cumplimiento. Normalmente los requerimientos no funcionales se especifican en el mismo documento de requerimientos, pero en una sección diferente a los requerimientos funcionales.
-    p.mb-5 Existen dos corrientes para la documentación de requerimientos, independientemente de la corriente se recomienda utilizar la estructura de la siguiente tabla para la documentación de requerimientos no funcionales. Sin embargo, se pueden realizar los ajustes y modificaciones que considere enriquecen el proceso.
+    p.mb-5 Existen dos corrientes para la documentación de requerimientos, independientemente de la corriente se recomienda utilizar la estructura de la Tabla 1 para la documentación de requerimientos no funcionales. Sin embargo, se pueden realizar los ajustes y modificaciones que considere enriquecen el proceso.
     .titulo-sexto.color-acento-contenido
-      h5 Propuesta para especificación de requisitos no funcionales.
+      h5 Tabla 2 Propuesta para especificación de requisitos no funcionales.
     .tabla-a.color-acento-botones.mb-5.text-center
       table
-        caption Fuente: SENA, 2021
+        caption Fuente: SENA, 2021.
         thead
           tr
             th Nombre del requerimiento
