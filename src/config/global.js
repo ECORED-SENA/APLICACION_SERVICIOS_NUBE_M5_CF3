@@ -234,12 +234,19 @@ export default {
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'María Carolina Tamayo Lopez ',
+          'Ángela María Maldonado Jaime',
+          'Carmen Alicia Martinez Torres',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
