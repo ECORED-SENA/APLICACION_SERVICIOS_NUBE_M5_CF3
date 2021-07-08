@@ -14,38 +14,42 @@
       |Por esta razón es importante elegir las herramientas que harán parte de la arquitectura tecnológica definida para el desarrollo y posterior despliegue e implementación de la solución tecnológica,  construida de acuerdo con el tipo de proyecto y tipo de cliente para el cual se pretende desarrollar el proyecto.
     #t_3_1.titulo-segundo
       h2 3.1 Componentes de una arquitectura de software
-    p.mb-5 Toda arquitectura definida en el proceso de construcción de un software debe incluir una serie de elementos o componentes que en su conjunto definen la estructura o línea de trabajo entre todos los miembros del equipo de desarrollo, a continuación, se definirá de manera general los componentes que deben de seleccionarse o definirse para el inicio de un proyecto, la definición de los componentes dependerá del tipo de proyecto que se desea construir, por ejemplo no es lo mismo desarrollar una aplicación web que una aplicación móvil. Para realizar lo anterior, se debe tener en cuenta: 
-    ol.lista-ol--cuadro.mb-5
-        li 
-          .lista-ol--cuadro__vineta
-            span 1
-          | Clientes y servidores: examinar qué servicios son requeridos en el servidor como servidores web, DNS, FTP, entre otros y de igual manera a las aplicaciones de tipo cliente que son necesarias para acceder a estos servicios.
+    //- p.mb-5 Toda arquitectura definida en el proceso de construcción de un software debe incluir una serie de elementos o componentes que en su conjunto definen la estructura o línea de trabajo entre todos los miembros del equipo de desarrollo, a continuación, se definirá de manera general los componentes que deben de seleccionarse o definirse para el inicio de un proyecto, la definición de los componentes dependerá del tipo de proyecto que se desea construir, por ejemplo no es lo mismo desarrollar una aplicación web que una aplicación móvil. Para realizar lo anterior, se debe tener en cuenta: 
+    //- ol.lista-ol--cuadro.mb-5
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span 1
+    //-       | Clientes y servidores: examinar qué servicios son requeridos en el servidor como servidores web, DNS, FTP, entre otros y de igual manera a las aplicaciones de tipo cliente que son necesarias para acceder a estos servicios.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 2
-          | Bases de datos.
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span 2
+    //-       | Bases de datos.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 3
-          | Sistemas Operativos.
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span 3
+    //-       | Sistemas Operativos.
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 4
-          | Lenguajes de programación
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span 4
+    //-       | Lenguajes de programación
 
-        li 
-          .lista-ol--cuadro__vineta
-            span 5
-          | Niveles en sistemas jerárquico.
-    .row.justify-content-between
-      .col-lg-6
-        p En términos generales la arquitectura de desarrollo define los componentes del software, su función e interacción con otros componentes de software y hardware. La selección o escogencia de estos componentes es lo que nos lleva a construir lo que se llevará a una plataforma de desarrollo la cual nos brinda un entorno de software común sobre la cual el equipo de desarrollo realizará las actividades necesarias para la construcción del producto de software. Adicionalmente, la plataforma es la base para la integración de los elementos software y hardware que permiten el funcionamiento del sistema en entornos productivos una vez que se realizan los respectivos procesos de despliegue por lo cual es importante que la arquitectura del software sea definida desde el inicio del proyecto.
-      .col-lg-5
-        figure.mb-5
-          img(src='@/assets/curso/img5.svg', alt='Texto que describa la imagen')
+    //-     li 
+    //-       .lista-ol--cuadro__vineta
+    //-         span 5
+    //-       | Niveles en sistemas jerárquico.
+    //- .row.justify-content-between
+    //-   .col-lg-6
+    //-     p En términos generales la arquitectura de desarrollo define los componentes del software, su función e interacción con otros componentes de software y hardware. La selección o escogencia de estos componentes es lo que nos lleva a construir lo que se llevará a una plataforma de desarrollo la cual nos brinda un entorno de software común sobre la cual el equipo de desarrollo realizará las actividades necesarias para la construcción del producto de software. Adicionalmente, la plataforma es la base para la integración de los elementos software y hardware que permiten el funcionamiento del sistema en entornos productivos una vez que se realizan los respectivos procesos de despliegue por lo cual es importante que la arquitectura del software sea definida desde el inicio del proyecto.
+    //-   .col-lg-5
+    //-     figure.mb-5
+    //-       img(src='@/assets/curso/img5.svg', alt='Texto que describa la imagen')
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/XrjY2iOVR8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Componentes de una arquitectura de software
     #t_3_2.titulo-segundo
       h2 3.2 Plataformas de desarrollo e implantación de aplicaciones y servicios
     p.mb-5 A continuación, se relacionan algunas de las plataformas de desarrollo e implantación de aplicaciones y servicios más comunes o de mayor popularidad dependiendo del proyecto a construir.
