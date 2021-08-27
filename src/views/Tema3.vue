@@ -147,14 +147,15 @@
                 .lista-ol--cuadro__vineta.vineta-cyan.p-4
                   span X
                 p.my-auto X: puede utilizar servidores web como Apache o Internet Information services.
-              li 
-                .lista-ol--cuadro__vineta.vineta-cyan.p-4
-                  span C
-                p.my-auto Soporta bases de datos como: Sybase, Oracle, MySQL, SQL Server.
-              li 
-                .lista-ol--cuadro__vineta.vineta-cyan.p-4
-                  span F
-                p.my-auto 
+              li.d-flex 
+                .vinetas.d-block
+                  .lista-ol--cuadro__vineta.vineta-cyan.p-4.d-block.mb-1
+                    span C
+                  .lista-ol--cuadro__vineta.vineta-cyan.p-4
+                    span F
+                p.my-auto.pe-5 Soporta bases de datos como: Sybase, Oracle, MySQL, 
+                  br
+                  |SQL Server.
           .col-lg-2
             figure
               img(src='@/assets/curso/img15.svg', alt='Texto que describa la imagen')
